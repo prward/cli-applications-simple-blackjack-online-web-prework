@@ -44,7 +44,7 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
-  prompt_user
+  invalid_command
   get_user_input
 end
 
