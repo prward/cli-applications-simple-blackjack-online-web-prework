@@ -45,7 +45,7 @@ end
 def invalid_command
   puts "Please enter a valid command"
   prompt_user
-  user_input get.chomp
+  get_user_input
 end
 
 #####################################################
